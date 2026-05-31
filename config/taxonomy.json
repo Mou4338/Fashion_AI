@@ -1,0 +1,96 @@
+{
+  "categories": [
+    "dress",
+    "top",
+    "shirt",
+    "t-shirt",
+    "blouse",
+    "sweater",
+    "hoodie",
+    "jacket",
+    "coat",
+    "pants",
+    "jeans",
+    "skirt",
+    "shorts",
+    "suit",
+    "jumpsuit",
+    "shoe",
+    "bag",
+    "accessory"
+  ],
+  "attribute_terms": {
+    "colors": {
+      "black": ["black", "ebony", "jet black"],
+      "white": ["white", "ivory", "cream", "off white"],
+      "red": ["red", "scarlet", "burgundy", "maroon"],
+      "blue": ["blue", "navy", "cobalt", "denim"],
+      "green": ["green", "olive", "emerald", "sage"],
+      "yellow": ["yellow", "mustard", "gold"],
+      "pink": ["pink", "rose", "fuchsia"],
+      "purple": ["purple", "lavender", "violet"],
+      "brown": ["brown", "tan", "camel", "chocolate"],
+      "gray": ["gray", "grey", "charcoal", "silver"],
+      "orange": ["orange", "coral", "rust"]
+    },
+    "materials": {
+      "cotton": ["cotton", "poplin", "jersey"],
+      "denim": ["denim", "jean"],
+      "leather": ["leather", "suede"],
+      "silk": ["silk", "satin", "crepe de chine"],
+      "wool": ["wool", "tweed", "cashmere"],
+      "linen": ["linen"],
+      "nylon": ["nylon", "technical fabric", "ripstop"],
+      "knit": ["knit", "ribbed", "crochet"],
+      "lace": ["lace", "broderie"],
+      "mesh": ["mesh", "tulle"]
+    },
+    "patterns": {
+      "solid": ["solid", "plain"],
+      "striped": ["stripe", "striped", "pinstripe"],
+      "floral": ["floral", "flower"],
+      "checked": ["check", "checked", "plaid", "gingham"],
+      "animal": ["animal print", "leopard", "zebra", "snakeskin"],
+      "graphic": ["graphic", "logo", "print"],
+      "embroidered": ["embroidered", "embroidery"]
+    },
+    "silhouettes": {
+      "oversized": ["oversized", "boxy", "relaxed"],
+      "fitted": ["fitted", "bodycon", "tailored", "slim"],
+      "a-line": ["a-line", "flared"],
+      "straight": ["straight", "column"],
+      "cropped": ["cropped", "short length"],
+      "wide-leg": ["wide leg", "wide-leg", "palazzo"],
+      "pleated": ["pleated", "pleats"],
+      "wrap": ["wrap", "tie waist"]
+    },
+    "occasions": {
+      "casual": ["casual", "everyday", "weekend"],
+      "workwear": ["office", "workwear", "business"],
+      "evening": ["evening", "party", "cocktail", "formal"],
+      "athleisure": ["athleisure", "active", "sport"],
+      "streetwear": ["streetwear", "urban"],
+      "bridal": ["bridal", "wedding"]
+    },
+    "details": {
+      "zipper": ["zip", "zipper"],
+      "buttons": ["button", "buttons"],
+      "pockets": ["pocket", "pockets"],
+      "ruffles": ["ruffle", "ruffles"],
+      "pleats": ["pleat", "pleats"],
+      "ribbed cuffs": ["ribbed cuff", "ribbed cuffs"],
+      "square neckline": ["square neckline"],
+      "v-neck": ["v-neck", "v neck"],
+      "hood": ["hood", "hooded"]
+    }
+  },
+  "style_archetypes": {
+    "minimalist": ["minimal", "clean", "tailored", "neutral", "monochrome"],
+    "streetwear": ["streetwear", "oversized", "hoodie", "bomber", "cargo", "graphic"],
+    "romantic": ["ruffle", "lace", "floral", "soft", "bow", "tulle"],
+    "heritage": ["tweed", "plaid", "trench", "wool", "classic"],
+    "athleisure": ["sport", "active", "performance", "nylon", "technical"],
+    "evening": ["satin", "silk", "cocktail", "formal", "party", "evening"]
+  }
+}
+

@@ -1,0 +1,7 @@
+pandas 
+numpy 
+pillow 
+tqdm
+chromadb
+sentence-transformers
+opencv-python

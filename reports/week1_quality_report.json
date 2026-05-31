@@ -1,0 +1,22 @@
+{
+  "record_count": 1000,
+  "average_quality_score": 72.38,
+  "min_quality_score": 61,
+  "max_quality_score": 85,
+  "category_counts": {
+    "top": 239,
+    "dress": 221,
+    "blouse": 144,
+    "t-shirt": 89,
+    "skirt": 85,
+    "sweater": 71,
+    "shorts": 51,
+    "hoodie": 46,
+    "pants": 31,
+    "romper": 23
+  },
+  "issue_counts": {
+    "low_resolution": 630,
+    "duplicate_image": 2
+  }
+}
