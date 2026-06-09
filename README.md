@@ -50,8 +50,56 @@ Issues Found:
 Important Fix:
 Initially, the annotation files did not match the actual downloaded image folders, causing missing image errors. I solved this by creating an import_actual_images.py script that scans the real image folders directly.
 
+Week 2 Task:
+Text-to-Image Foundation
+
+Work Completed:
+In Week 2, I set up a text-to-image generation pipeline for fashion design using Stable Diffusion. I created reusable prompt templates for fashion image generation and tested different prompt styles for garments such as dresses, jackets, pants, and tops.
+
+Main Work Done:
+1. Set up Week 2 project structure.
+2. Added prompt template system for fashion generation.
+3. Created reusable JSON prompt examples.
+4. Implemented Stable Diffusion image generation script.
+5. Tested generation first with a tiny model to confirm the pipeline.
+6. Generated real fashion design outputs using Stable Diffusion 1.5.
+7. Improved prompt quality by using mannequin/product photography prompts.
+8. Saved generated images and metadata in the project folder.
+
+Model Used:
+- Tiny Stable Diffusion model for code testing
+- Stable Diffusion 1.5 for real image generation
+
+Generated Output:
+The pipeline successfully generated fashion design images and saved them in:
+generated/week2/
+
+Best Result:
+A black satin midi dress on a headless mannequin was generated successfully using a fashion product photography prompt.
+
+Prompt Example:
+studio product photograph of a black satin midi dress on a headless mannequin, no face visible, fitted silhouette, evening style, square neckline, soft pleats, clean white background, realistic fabric texture, high detail, professional fashion catalog photo
+
+Problem Faced:
+Initially, the generated human model image had imperfect face/body details. This happened because Stable Diffusion 1.5 is older and struggles with faces/hands.
+
+Solution:
+I changed the prompt style to use headless mannequin and product photography. This improved the output and made the garment clearer, which is better for a fashion design assistant.
+
+Files Added:
+- src/fashion_week2/prompt_library.py
+- src/fashion_week2/generate_sdxl.py
+- src/fashion_week2/generate_from_templates.py
+- src/fashion_week2/evaluate_clip_score.py
+- src/fashion_week2/evaluate_fid.py
+- config/week2_prompt_templates.json
+- examples/week2_prompt_examples.jsonl
+- app/gradio_week2.py
+- generated/week2/ generated sample images
+- generated/week2/metadata.jsonl
+
 Current Status:
-Week 1 dataset curation pipeline is complete and working successfully. The dataset is now ready for Week 2 tasks such as CLIP embeddings, retrieval, Gradio demo, or generative model preparation.
+Week 2 text-to-image foundation is working successfully. The system can take a fashion prompt and generate a design image. Prompt templates are reusable and outputs are saved with metadata.
 
 Next Week Plan:
-Start building image/text retrieval and AI demo interface using CLIP, ChromaDB, and Gradio.
+In Week 3, I will work on style control using ControlNet. The goal will be to use sketch, pose, or depth inputs to control the generated fashion design output more accurately.
