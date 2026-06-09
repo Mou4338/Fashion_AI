@@ -1,0 +1,18 @@
+{
+  "negative_prompt": "low quality, blurry, distorted garment, bad anatomy, extra limbs, missing hands, unreadable text, watermark, logo, messy background, deformed fabric, cropped garment",
+  "templates": {
+    "studio_product": "studio fashion product photograph of a {color} {material} {garment}, {silhouette} silhouette, {style} style, {details}, clean white background, realistic fabric texture, high detail",
+    "runway_editorial": "full body runway fashion look, {color} {material} {garment}, {silhouette} silhouette, {style} aesthetic, {details}, professional fashion week lighting, elegant pose, high detail",
+    "flat_lay": "flat lay fashion design board featuring a {color} {material} {garment}, {style} mood, {details}, fabric swatches, accessory styling, clean composition",
+    "lookbook": "premium fashion lookbook photograph, model wearing a {color} {material} {garment}, {silhouette} silhouette, {style} styling, {details}, soft studio lighting, editorial quality"
+  },
+  "defaults": {
+    "garment": "dress",
+    "color": "black",
+    "material": "satin",
+    "silhouette": "fitted",
+    "style": "evening",
+    "details": "minimal seams, refined neckline"
+  }
+}
+

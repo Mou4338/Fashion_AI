@@ -4,6 +4,3 @@ __pycache__/
 
 data/raw/
 data/metadata/
-
-.DS_Store
-Thumbs.db

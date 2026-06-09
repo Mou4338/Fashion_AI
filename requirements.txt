@@ -1,7 +1,29 @@
-pandas 
-numpy 
-pillow 
+# Week 1: Dataset curation
+pandas
+numpy
+pillow
 tqdm
-chromadb
-sentence-transformers
+rich
 opencv-python
+
+# Week 2: Text-to-image generation
+torch
+torchvision
+torchaudio
+diffusers
+transformers
+accelerate
+safetensors
+
+# Evaluation
+torchmetrics
+torch-fidelity
+
+# Demo app
+gradio
+
+# Optional vector database for later weeks
+chromadb
+
+# Optional embeddings / retrieval
+sentence-transformers
